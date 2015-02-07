@@ -8,7 +8,7 @@ var gulp = require('gulp'),
     notify = require('gulp-notify');
 
 
-elixir.extend('lxrMultiCopy', function (srcFiles, destDir, outputFile) {
+elixir.extend('multiCopy', function (srcFiles, destDir, outputFile) {
 
     isConcat = (typeof outputFile === "undefined" || outputFile == "" || outputFile == null) ? false : true;
 

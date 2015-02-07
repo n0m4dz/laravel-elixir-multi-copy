@@ -1,0 +1,34 @@
+{
+  "name": "laravel-elixir-multi-copy",
+  "version": "0.0.1",
+  "description": "Laravel elixir - multi file copy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elixir",
+    "laravel",
+    "multi",
+    "copy",
+    "copy",
+    "file"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n0m4dz/laravel-elixir-multi-copy"
+  },
+  "author": "n0m4dz <tseegii.it@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/n0m4dz/laravel-elixir-multi-copy",
+  "bugs": {
+    "url": "https://github.com/n0m4dz/laravel-elixir-multi-copy/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.3",
+    "gulp-if": "^1.2.5",
+    "gulp-notify": "^2.2.0",
+    "laravel-elixir": "^0.10.7"
+  }
+}

@@ -1,9 +1,15 @@
 # laravel-elixir-multi-copy
-Laravel Elixir - Copy multiple files and directory
+Laravel Elixir - Copy multiple files.  
+
+## Install
+
+```
+npm install laravel-elixir-multi-copy --save-dev
+```
 
 ## Usage
 
-Add it to your Gulpfile.js, like so:
+Add it to your `Gulpfile.js`, like so:
 
 ```
 var elixir = require('laravel-elixir');
@@ -22,3 +28,4 @@ elixir(function(mix) {
    mix.multiCopy(['file1.js', 'file2.js'], 'outputDir', 'combinedFile.js');
 });
 ```
+Instead of `combinedFile.js` you can 
